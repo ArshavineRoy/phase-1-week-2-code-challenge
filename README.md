@@ -14,14 +14,23 @@ This is a code challenge for Phase 1 Week 2 whose aim is implementing a mini web
 This challenge involves working on Flatacuties, an app where one can vote for the cutest animal. I will use a local API and build out a simple frontend for the app.
 
 ## Project Setup
+### Run and interact with the web app
+
+Launch the web app deployed via GitHub Pages
+
+```
+$ https://arshavineroy.github.io/phase-1-week-2-code-challenge/
+```
+Alternatively,
+
 ### 1. Clone the repository
 ```
-git clone https://github.com/ArshavineRoy/phase-1-week-2-code-challenge
+$ git clone https://github.com/ArshavineRoy/phase-1-week-2-code-challenge
 ```
 
 ### 2. Navigate to the project directory
 ```
-cd phase-1-week-2-code-challenge
+$ cd phase-1-week-2-code-challenge
 ```
 ### 3. Open the project in Visual Studio Code
 
@@ -53,13 +62,9 @@ Test the server by visiting this route in the browser
 $ http://localhost:3000/characters
 ```
 
-### 6. Run and interact with the web app
+### 6. Run the web app
+Open `index.html` on your browser, preferably Chrome.
 
-Launch the web app via
-
-```
-$
-```
 Alternatively, open and right-click on the `index.html` file in VS Code and select `Open with Live Server` from the context menu.
 
 This will automatically launch a local development server and open the mini app in your default web browser.
@@ -69,7 +74,7 @@ A user should be able to:
 
 1. See a list of all animal names. A GET request is made to the following endpoint to retrieve the character data
 ```js
- GET /characters
+$ GET /characters
 ```
 
 Example Response:
@@ -101,7 +106,7 @@ Example Response:
 2. Click on an animal’s name to see its details i.e., image and number of votes. Details should be displayed for one animal at a time. To get get a character's details:
 
 ```js
-GET /characters/:id
+$ GET /characters/:id
 ```
 Example Response:
 
