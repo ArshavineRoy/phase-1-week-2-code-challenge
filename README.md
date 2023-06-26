@@ -50,7 +50,7 @@ $ json-server --watch db.json
 Test the server by visiting this route in the browser
 
 ```
-http://localhost:3000/characters
+$ http://localhost:3000/characters
 ```
 
 ### 6. Run and interact with the web app
@@ -58,7 +58,7 @@ http://localhost:3000/characters
 Launch the web app via
 
 ```
-link
+$
 ```
 Alternatively, open and right-click on the `index.html` file in VS Code and select `Open with Live Server` from the context menu.
 
@@ -95,7 +95,7 @@ Example Response:
 
      "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
 
-     "votes": 0   }, ….]
+     "votes": 0   }, ...]
 ```
 
 2. Click on an animal’s name to see its details i.e., image and number of votes. Details should be displayed for one animal at a time. To get get a character's details:
