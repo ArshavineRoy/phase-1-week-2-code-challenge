@@ -7,6 +7,8 @@ body {
     font-family: 'Nixie One', cursive;
 }
 
+/* Header */
+
 #header {
     display: flex;
     position: sticky;
@@ -37,6 +39,7 @@ body {
     font-size: 24px;
 }
 
+/* Main section */
 
 .main {
     font-size: 20px;
@@ -192,3 +195,54 @@ body {
     border-radius: 10px;
 } 
   
+/* Media Queries */
+
+@media (max-width: 768px) {
+    #names-container {
+      margin-right: 0;
+    }
+  
+    #image-container {
+      padding: 20px;
+    }
+}
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+    #names-container {
+      margin-right: 150px;
+    }
+  
+    #image-container {
+      padding: 30px 60px 10px 60px;
+    }
+  
+    .main {
+      font-size: 18px;
+      margin: 15px;
+      padding: 5px 10px 10px;
+    }
+  
+    #animal-form {
+      font-size: 24px;
+    }
+  
+    .button-85 {
+      margin: 12px;
+      font-size: 12px;
+      padding: 0.4em 1.5em;
+    }
+  
+    .ribbon {
+      font-size: 18px;
+    }
+}
+  
+@media (min-width: 1025px) {
+    #names-container {
+      margin-right: 300px;
+    }
+  
+    #image-container {
+      padding: 40px 80px 20px 80px;
+    }
+}
