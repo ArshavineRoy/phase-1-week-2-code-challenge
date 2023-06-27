@@ -1,8 +1,18 @@
-/* fetching data from the server */
+/* --- Hosted my db.json on GH Pages so there is no need for a local json server --- */
 
-fetch("http://localhost:3000/characters")
+/*
+Fetching data from the API hosted on GH Pages.
+The data returned is an object of 'characters', and the array can be obtained by 'data.characters'
+*/
+
+fetch("https://arshavineroy.github.io/phase-1-week-2-code-challenge/db.json")
     .then(response => response.json())
-    .then(handleData);
+    .then(data => {
+        const array = Object.values(data.characters); // Converting the object received into an array so we can iterate
+
+        handleData(array);
+    });
+
 
 
 

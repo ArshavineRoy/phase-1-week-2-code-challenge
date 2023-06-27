@@ -20,43 +20,17 @@ Below is an image of the mini web app:
 
 ![Flatacuties Screen Grab](resources/flatacuties-grab.png)
 
+
 ## Project Setup
 
-### 1. Clone the repository
-```
-$ git clone https://github.com/ArshavineRoy/phase-1-week-2-code-challenge
-```
+### View the web app via GH Pages
 
-### 2. Navigate to the project directory
-```
-$ cd phase-1-week-2-code-challenge
-```
+Use this link to directly open the web app deployed via GitHub Pages.
 
-### 3. Install and start JSON server
-
-Install the JSON server
+NB: This doesn't require you to set up the local server.
 
 ```
-$ npm install -g json-server
-```
-Start JSON Server (from within the project directory)
-
-```
-$ json-server --watch db.json
-```
-
-Test the server by visiting this route in the browser
-
-```
-$ http://localhost:3000/characters
-```
-
-### 4. View and interact with the app
-
-Use this link to open the web app deployed via GitHub Pages
-
-```
-$ https://arshavineroy.github.io/phase-1-week-2-code-challenge/
+https://arshavineroy.github.io/phase-1-week-2-code-challenge/
 ```
 
 #### How to use the app
@@ -64,7 +38,38 @@ $ https://arshavineroy.github.io/phase-1-week-2-code-challenge/
 - Use the like button to vote for an animal.
 - Use the reset button to set the votes to zero.
 
-### Alternatives to running the app
+#### Alternatively,
+
+### 1. Clone the repository
+```
+git clone https://github.com/ArshavineRoy/phase-1-week-2-code-challenge
+```
+
+### 2. Navigate to the project directory
+```
+cd phase-1-week-2-code-challenge
+```
+
+### 3. Install and start JSON server
+
+Install the JSON server
+
+```
+npm install -g json-server
+```
+Start JSON Server (from within the project directory)
+
+```
+json-server --watch db.json
+```
+
+Test the server by visiting this route in the browser
+
+```
+http://localhost:3000/characters
+```
+
+### Several ways to launch the app
 ### 4.1. Launch the app using its HTML file
 
 Open `index.html` on your browser, preferably Chrome.
