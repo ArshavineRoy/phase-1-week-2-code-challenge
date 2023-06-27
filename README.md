@@ -51,7 +51,7 @@ Test the server by visiting this route in the browser
 $ http://localhost:3000/characters
 ```
 
-### 4. View and interact with the web app
+### 4. View and interact with the app
 
 Use this link to open the web app deployed via GitHub Pages
 
@@ -59,12 +59,17 @@ Use this link to open the web app deployed via GitHub Pages
 $ https://arshavineroy.github.io/phase-1-week-2-code-challenge/
 ```
 
+#### How to use the app
+- Use the animal list to view an animal's details, including its image.
+- Use the like button to vote for an animal.
+- Use the reset button to set the votes to zero.
+
 ### Alternatives to running the app
-### 4.1. Run the web app using its HTML file
+### 4.1. Launch the app using its HTML file
 
 Open `index.html` on your browser, preferably Chrome.
 
-### 4.2. Run the web app using Visual Studio Code
+### 4.2. Launch the app using Visual Studio Code
 
 Navigate to the repo directory in the `terminal`, and type `code .` to open the project in VS Code.
 
@@ -136,7 +141,7 @@ Example Response:
 
 3. When viewing an animal’s details, the user should be able to add the number of votes for each animal. The number of votes should then be displayed together with the animal’s details. No persistence is needed for the votes.
 
-The server DB for this web has been obtained from
+The server DB for this app has been obtained from:
 
 ```json
 {
@@ -178,7 +183,7 @@ The server DB for this web has been obtained from
 ## Bonus Deliverables
 
 - Add a reset button that resets the votes back to 0. (done)
-- Have a form for adding animals.
+- Have a form for adding animals. (a dummy form made)
 
 ## Author & License
 
