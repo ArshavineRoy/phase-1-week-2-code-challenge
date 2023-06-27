@@ -21,14 +21,6 @@ Below is an image of the mini web app:
 ![Flatacuties Screen Grab](resources/flatacuties-grab.png)
 
 ## Project Setup
-### Run and interact with the web app
-
-Launch the web app deployed via GitHub Pages
-
-```
-$ https://arshavineroy.github.io/phase-1-week-2-code-challenge/
-```
-Alternatively,
 
 ### 1. Clone the repository
 ```
@@ -39,16 +31,6 @@ $ git clone https://github.com/ArshavineRoy/phase-1-week-2-code-challenge
 ```
 $ cd phase-1-week-2-code-challenge
 ```
-### 3. Open the project in Visual Studio Code
-
-Within the repo forlder in the terminal, use `code .` to open VS Code.
-
-Alternatively, run VS Code and open the project repo folder directly.
-
-### 4. Install Live Server extension
-
-Open `Extensions` in VS Code `(Ctrl+Shift+X)`, search for `Live Server` by `Ritwick Dey`, and click `Install`.
-
 
 ### 5. Install and start JSON server
 
@@ -57,7 +39,7 @@ Install the JSON server
 ```
 $ npm install -g json-server
 ```
-Start JSON Server
+Start JSON Server (from within the project directory)
 
 ```
 $ json-server --watch db.json
@@ -69,12 +51,34 @@ Test the server by visiting this route in the browser
 $ http://localhost:3000/characters
 ```
 
-### 6. Run the web app
+### 6. View and interact with the web app
+
+Use this link to open the web app deployed via GitHub Pages
+
+```
+$ https://arshavineroy.github.io/phase-1-week-2-code-challenge/
+
+```
+
+### Alternatives to running the app
+### 6.1 Run the web app from its HTML file
+
 Open `index.html` on your browser, preferably Chrome.
 
-Alternatively, open and right-click on the `index.html` file in VS Code and select `Open with Live Server` from the context menu.
+### 6.2 Run the project from Visual Studio Code
+
+Navigate to the repo directory in the `terminal`, and type `code .` to open the project in VS Code.
+
+- Alternatively, run VS Code and open the project repo folder directly.
+
+### 6.2.2 Install Live Server extension
+
+Open `Extensions` in VS Code `(Ctrl+Shift+X)`, search for `Live Server` by `Ritwick Dey`, and click `Install`.
+
+Open `index.html` and right-click anywehre within the file and select `Open with Live Server` from the context menu.
 
 This will automatically launch a local development server and open the mini app in your default web browser.
+
 
 ## Core Deliverables for this Challenge
 A user should be able to:
@@ -107,7 +111,7 @@ Example Response:
 
      "image": "https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif",
 
-     "votes": 0   }, ...]
+     "votes": 0   },
 ```
 
 2. Click on an animal’s name to see its details i.e., image and number of votes. Details should be displayed for one animal at a time. To get get a character's details:
