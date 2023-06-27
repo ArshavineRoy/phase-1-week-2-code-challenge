@@ -64,7 +64,7 @@ $ https://arshavineroy.github.io/phase-1-week-2-code-challenge/
 
 Open `index.html` on your browser, preferably Chrome.
 
-### 4.2. Run the project using Visual Studio Code
+### 4.2. Run the web app using Visual Studio Code
 
 Navigate to the repo directory in the `terminal`, and type `code .` to open the project in VS Code.
 
