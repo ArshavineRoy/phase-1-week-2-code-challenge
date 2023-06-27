@@ -32,7 +32,7 @@ $ git clone https://github.com/ArshavineRoy/phase-1-week-2-code-challenge
 $ cd phase-1-week-2-code-challenge
 ```
 
-### 5. Install and start JSON server
+### 3. Install and start JSON server
 
 Install the JSON server
 
@@ -51,27 +51,26 @@ Test the server by visiting this route in the browser
 $ http://localhost:3000/characters
 ```
 
-### 6. View and interact with the web app
+### 4. View and interact with the web app
 
 Use this link to open the web app deployed via GitHub Pages
 
 ```
 $ https://arshavineroy.github.io/phase-1-week-2-code-challenge/
-
 ```
 
 ### Alternatives to running the app
-### 6.1 Run the web app from its HTML file
+### 4.1. Run the web app using its HTML file
 
 Open `index.html` on your browser, preferably Chrome.
 
-### 6.2 Run the project from Visual Studio Code
+### 4.2. Run the project using Visual Studio Code
 
 Navigate to the repo directory in the `terminal`, and type `code .` to open the project in VS Code.
 
 - Alternatively, run VS Code and open the project repo folder directly.
 
-### 6.2.2 Install Live Server extension
+### 4.2.2. Install Live Server extension
 
 Open `Extensions` in VS Code `(Ctrl+Shift+X)`, search for `Live Server` by `Ritwick Dey`, and click `Install`.
 
