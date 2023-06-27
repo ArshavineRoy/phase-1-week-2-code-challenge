@@ -94,3 +94,9 @@ function handleData(data) {
     voteButton.classList.remove("voted");
   }
 }
+
+// prevent default on form submission
+const submitButton = document.querySelector('#submit-buttton')
+submitButton.addEventListener('click', (e)=>{
+  e.preventDefault()
+})
