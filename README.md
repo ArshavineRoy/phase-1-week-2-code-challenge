@@ -1,6 +1,9 @@
 # Phase 1 : Week 2 Code Challenge
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
+
+## Flatacuties Mini Web App
 
 ## Introduction
 
@@ -12,6 +15,10 @@ This is a code challenge for Phase 1 Week 2 whose aim is implementing a mini web
 - `Server Communication`
 
 This challenge involves working on Flatacuties, an app where one can vote for the cutest animal. I will use a local API and build out a simple frontend for the app.
+
+Below is an image of the mini web app:
+
+![Flatacuties Screen Grab](resources/flatacuties-grab.png)
 
 ## Project Setup
 ### Run and interact with the web app
